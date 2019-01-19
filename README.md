@@ -1,6 +1,6 @@
 # MMM-Warsaw-Transport
 
-A module of MagicMirror² to show last known geolocation of Warsaw public transport buses on the map.
+A module of MagicMirror² to show last known geolocation for public transport buses in Warsaw on the map.
 
 ![picture](pictures/1.png)
 
@@ -53,8 +53,32 @@ You may want to set the following options in the config section as well:
 
 ## Old Updates
 
-### [0.0.1] - 2019.01.03
+### [1.0.0] - 2019.01.03
 - show map
 - show bus stops
 - show buses
 - refreshing current bus positions
+
+## License
+
+MIT License
+
+Copyright (c) 2019 
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

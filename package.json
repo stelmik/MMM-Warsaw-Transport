@@ -1,25 +1,33 @@
 {
   "name": "mmm-warsaw-transport",
   "version": "1.0.0",
-  "description": "Warsaw transport current state information",
+  "description": "Show geolocation for public transport buses in Warsaw, PL",
   "main": "MMM-Warsaw-Transport.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stelmik/MMM-Warsaw-Transport"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
+    "magic mirror",
+    "smart mirror",
     "MagicMirror",
     "transport",
     "Warsaw",
-    "Poland"
+    "Poland",
+    "module"
   ],
   "author": "Krzysztof Stelmach",
+  "contributors": "https://github.com/stelmik/MMM-Warsaw-Transport/graphs/contributors",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stelmik/MMM-Warsaw-Transport/issues"
+  },
+  "homepage": "https://github.com/stelmik/MMM-Warsaw-Transport#readme",
   "dependencies": {
     "request": "~2.83.0",
     "fast-csv": "~2.4.1"
-  },
-  "devDependencies": {
-    "request": "latest",
-    "fast-csv": "latest"
   }
 }

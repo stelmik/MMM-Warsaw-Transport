@@ -2,6 +2,8 @@
 
 A module of MagicMirror² to show last known geolocation of Warsaw public transport buses on the map.
 
+![picture](pictures/1.png)
+
 ## Installation and configuration
 
 - Navigate to the modules directory via the follow command: `cd MagicMirror/modules`
@@ -12,18 +14,18 @@ A module of MagicMirror² to show last known geolocation of Warsaw public transp
 - Get API key for public Warsaw data (before you have to register on page https://api.um.warszawa.pl/)
 - Add the following configuration to the modules array in the `config/config.js` file (this is example):
 
-```json
-	{
-		module: "MMM-Warsaw-Transport",
-		position: "bottom_center",
-		config: {
-			centerLat: 52.2330649,	// latitude of center map
-			centerLong: 20.9207682,	// longitude of center map
-			mapboxAccessToken: "....YOUR_API_KEY_TO_MAPBOX....",	// your public token for mapbox service
-			ztmApiKey: "....YOUR_API_KEY_TO_ZTM....",				// your API key for public Warsaw data
-			lineNumbers: ['102', '103', 'N44']						// list of bus lines to show on the map
-		}
-	},
+```
+{
+  module: "MMM-Warsaw-Transport",
+  position: "bottom_center",
+  config: {
+    centerLat: 52.2330649,	// latitude of center map
+    centerLong: 20.9207682,	// longitude of center map
+    mapboxAccessToken: "....YOUR_API_KEY_TO_MAPBOX....",// your public token for mapbox service
+    ztmApiKey: "....YOUR_API_KEY_TO_ZTM....",		// your API key for public Warsaw data
+    lineNumbers: ['102', '103', 'N44']			// list of bus lines to show on the map
+  }
+},
 ```
 
 You may want to set the following options in the config section as well:

@@ -1,0 +1,25 @@
+{
+  "name": "mmm-warsaw-transport",
+  "version": "1.0.0",
+  "description": "Warsaw transport current state information",
+  "main": "MMM-Warsaw-Transport.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "MagicMirror",
+    "transport",
+    "Warsaw",
+    "Poland"
+  ],
+  "author": "Krzysztof Stelmach",
+  "license": "MIT",
+  "dependencies": {
+    "request": "~2.83.0",
+    "fast-csv": "~2.4.1"
+  },
+  "devDependencies": {
+    "request": "latest",
+    "fast-csv": "latest"
+  }
+}

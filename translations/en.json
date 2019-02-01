@@ -1,3 +1,4 @@
 {
-	"REFRESHED": "Refreshed {time} sec. ago"
+	"REFRESHED": "Refreshed {time} sec. ago",
+	"REFRESHED_WITH_TIME": "Refreshed {time} sec. ago, resp. time: {responseTime} s"
 }

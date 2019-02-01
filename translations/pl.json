@@ -1,3 +1,4 @@
 {
-	"REFRESHED": "Odświeżone {time} sek. temu"
+	"REFRESHED": "Odświeżone {time} sek. temu",
+	"REFRESHED_WITH_TIME": "Odświeżone {time} sek. temu, czas odp.: {responseTime} sek."
 }

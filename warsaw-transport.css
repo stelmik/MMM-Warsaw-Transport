@@ -49,3 +49,7 @@
   padding:0 5px;
   color:#777;
 }
+.fa.fa-long-arrow-down.direction {
+  font-size:9px;
+  color:#ccc;
+}

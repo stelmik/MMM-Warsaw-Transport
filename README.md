@@ -34,6 +34,7 @@ You may want to set the following options in the config section as well:
 |---|---|---|
 | `mapWidth` | Map width (CSS value for `width` attribute) | "600px" |
 | `mapHeight` | Map height (CSS value for `height` attribute) | "600px" |
+| `interval` | Request bus location interval (in milliseconds) | 3400 |
 | `centerLat` | latitude of center map | 52.2330649 |
 | `centerLong` | longitude of center map | 20.9207682 |
 | `zoom` | Zoom level (max value: 18) | 15 |
@@ -53,7 +54,7 @@ You may want to set the following options in the config section as well:
 
 ## Old Updates
 
-### [1.0.0] - 2019.01.03
+### [0.0.1] - 2019.01.03
 - show map
 - show bus stops
 - show buses

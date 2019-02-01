@@ -28,6 +28,7 @@
   "homepage": "https://github.com/stelmik/MMM-Warsaw-Transport#readme",
   "dependencies": {
     "request": "~2.83.0",
-    "fast-csv": "~2.4.1"
+    "fast-csv": "~2.4.1",
+    "jsum": "~0.1.4"
   }
 }
